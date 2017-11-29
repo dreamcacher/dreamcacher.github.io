@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Material Dashboard by Creative Tim</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <!-- Bootstrap core CSS     -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--  Material Dashboard CSS    -->
+    <link href="../assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-color="purple">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+    <div class="logo">
+        <a href="#" class="simple-text" >
+          <img src="../assets/img/logo.png"/ width="25" height="37">
+            <strong style="font-family: CenturyGothic;">DreamCacher</strong>
+        </a>
+    </div>
+            <div class="sidebar-wrapper">
+              <ul class="nav">
+                  <li>
+                      <a href="dashboard.html">
+                          <i class="material-icons">home</i>
+                          <p>Home</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="./user.html">
+                          <i class="material-icons">person</i>
+                          <p>User Profile</p>
+                      </a>
+                  </li>
+                  <li class="active">
+                      <a href="./icons.html" style="background-color: rgb(11,29,73); box-shadow: 0 2px 2px rgba(11,29,73,0.2)">
+                          <i class="material-icons">looks_one</i>
+                          <p>Start</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="./icons.html">
+                          <i class="material-icons">looks_two</i>
+                          <p>Manage</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <i class="material-icons">lock</i>
+                          <p>Grow - LOCKED</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="./maps.html">
+                          <i class="material-icons">location_on</i>
+                          <p>Map</p>
+                      </a>
+                  </li>
+                  <li class="active-pro">
+                      <a href="upgrade.html">
+                          <i class="material-icons">unarchive</i>
+                          <p>Upgrade to Premium</p>
+                      </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+          <nav class="navbar navbar-primary navbar-fixed" style="border-radius:0px; border-color: rgb(11,29,73); background-color:rgb(11,29,73); box-shadow: 0px 2px 2px rgba(0,0,0,0.2);">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#"><strong>Start</strong></a>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  <i class="material-icons">notifications</i>
+                                  <span class="notification">5</span>
+                                  <p class="hidden-lg hidden-md">Notifications</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li>
+                                      <a href="#">John Doe responded to your message</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">You have 2 new connections</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">You're now friend with Andrew</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Another Notification</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Another One</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+                                  <i class="material-icons">person</i>
+                                  <p class="hidden-lg hidden-md">Profile</p>
+                              </a>
+                          </li>
+                      </ul>
+                      <form class="navbar-form navbar-right" role="search">
+                          <div class="form-group  is-empty">
+                              <input type="text" class="form-control" placeholder="Search">
+                              <span class="material-input"></span>
+                          </div>
+                          <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                              <i class="material-icons">search</i>
+                              <div class="ripple-container"></div>
+                          </button>
+                      </form>
+                  </div>
+              </div>
+          </nav>
+            <div class="content">
+              <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-plain">
+                            <div class="card-header" data-background-color="purple">
+                                <h4 class="title">Understanding Your Customer</h4>
+                                <p class="category">From our friends at
+                                    <a target="_blank" href="#">Lynda</a>
+                                </p>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <br />
+                                <h4>1) Understanding Your Customer</h4>
+                                <div class="card-content">
+                                    <div class="iframe-container hidden-sm hidden-xs">
+                                        <iframe style="width:100%; height:200px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);" src='https://www.lynda.com/player/embed/188119?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-188119' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'>
+                                            <p>Your browser does not support iframes.</p>
+                                        </iframe>
+                                    </div>
+                                    <div class="col-md-6 hidden-lg hidden-md text-center">
+                                        <h5>The icons are visible on Desktop mode inside an iframe. Since the iframe is not working on Mobile and Tablets please visit the icons on their original page on Google. Check the
+                                            <a href="https://design.google.com/icons/" target="_blank">Material Icons</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" style="text-align: center;">
+                                <br />
+                                <h4>2) Understanding Your Customer</h4>
+                                <div class="card-content" >
+                                    <div class="iframe-container hidden-sm hidden-xs">
+                                        <iframe style="width:100%; height:200px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);" src='https://www.lynda.com/player/embed/188119?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-188119' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'>
+                                            <p>Your browser does not support iframes.</p>
+                                        </iframe>
+                                    </div>
+                                    <div class="col-md-6 hidden-lg hidden-md text-center">
+                                        <h5>The icons are visible on Desktop mode inside an iframe. Since the iframe is not working on Mobile and Tablets please visit the icons on their original page on Google. Check the
+                                            <a href="https://design.google.com/icons/" target="_blank">Material Icons</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <img src="../assets/img/linkedin.png" style="width: 100px;">
+                              </div>
+                              <div class="col-md-4">
+                                <br />
+                                <h4>3) Understanding Your Customer</h4>
+                                <div class="card-content">
+                                    <div class="iframe-container hidden-sm hidden-xs">
+                                        <iframe style="width:100%; height:200px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);" src='https://www.lynda.com/player/embed/188119?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-188119' mozallowfullscreen='true' webkitallowfullscreen='true' allowfullscreen='true'>
+                                            <p>Your browser does not support iframes.</p>
+                                        </iframe>
+                                    </div>
+                                    <div class="col-md-6 hidden-lg hidden-md text-center">
+                                        <h5>The icons are visible on Desktop mode inside an iframe. Since the iframe is not working on Mobile and Tablets please visit the icons on their original page on Google. Check the
+                                            <a href="https://design.google.com/icons/" target="_blank">Material Icons</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card card-plain">
+                      <div class="card-header" data-background-color="purple">
+                          <h4 class="title">Business Model Canvas</h4>
+                          <p class="category">Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" role="button" data-toggle="modal" data-target="#keyPartnersModal">
+                        <div class="card-content">
+                            <h6 class="title"><strong>KEY PARTNERS</strong></h6>
+                            <p class="category">Other company relationships used to optimize operations and reduce risks</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="stats">
+                              <span class="badge" style="background-color: orange;">NEW FEEDBACK</span>
+                                <i class="material-icons">access_time</i> Updated 4 Minutes Ago
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" role="button">
+                        <div class="card-content">
+                            <h6 class="title"><strong>KEY ACTIVITIES</strong></h6>
+                            <p class="category">The most important activities in executing a company's value proposition</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="stats">
+                                <i class="material-icons">access_time</i> Just Updated
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" role="button">
+                        <div class="card-content">
+                            <h6 class="title"><strong>KEY RESOURCES</strong></h6>
+                            <p class="category">The resources that are necessary to create value for the customer</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="stats">
+                                <i class="material-icons">access_time</i> Updated 25 Minutes Ago
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>VALUE PROPOSITION</strong></h6>
+                          <p class="category">The collection of products and services a business offers to meet the needs of its customers</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 7 Minutes Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>CUSTOMER RELATIONSHIPS</strong></h6>
+                          <p class="category">The types of relationships to create with the different customer segments</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 2 Days Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>CHANNELS</strong></h6>
+                          <p class="category">The channels will distribute a value proposition in fast, efficient and cost effective ways</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 46 Minutes Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>CUSTOMER SEGMENTS</strong></h6>
+                          <p class="category">The possible sets of customers segmented based on their different needs and attributes</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 5 Hours Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>COST STRUCTURE</strong></h6>
+                          <p class="category">The monetary consequences while operating under different business models</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 3 Days Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card" role="button">
+                      <div class="card-content">
+                          <h6 class="title"><strong>REVENUE STREAMS</strong></h6>
+                          <p class="category">The way a company makes income from each customer segment</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="stats">
+                              <i class="material-icons">access_time</i> Updated 3 Days Ago
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+<!-- Modals -->
+          <div class="modal fade bd-example-modal-lg" id="keyPartnersModal" tabindex="-1" role="dialog" aria-labelledby="keyPartnersModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content" style="background-color: rgb(250,250,250);">
+                <div class="container-fluid">
+                      <div class="row" style="padding: 2%;">
+                        <h3 style="text-align: center;"><strong>Key Partners</strong></h3>
+                        <div class="row" style="padding: 2%;">
+                          <div class="col-md-12">
+                            <div class="card">
+                              <div class="card-content">
+                              <label><h4><strong>Description</strong></h4></label>
+                              <label>A business partnership is when two commercial entities form an alliance, which may either be a really loose relationship where both entities retain their independence and are at liberty to form more partnerships or an exclusive contract which limits the two companies to only that one relationship.</label>
+                              <label>Partnerships are a tricky business involving a lot of negotiation and an element of trust. There can be a number of reasons why organizations would make the decision to take on a key partner rather than doing things themselves or taking on a partner but not considering them as key to the success or failure of their business. Primarily, one of the three kinds of motivations can be attributed when a business chooses to enter a partnership:</label>
+                              <label><strong>Optimization and Economy of Scale</strong></label>
+                              <label>Most organizations are heavily focused on the bottom-line. And many focus on cost-cutting or smart spending through optimizing the allocation of either their resources or activities. This is the most common motivation for people to enter into partnerships of different types.</label>
+                              <label>When you are looking for efficiency in your company or optimizing your productions chains, key partners can help you achieve this goal. It is unrealistic to think, as an entrepreneur that you have the resources in place to conduct all your key activities in-house. Most partnerships give organizations the ability to share their infrastructures or outsource some activities to more cost-effective options.</label>
+                              <label>Citroen, Peugeot and Toyota joined hands to create a small, cheap car for the masses that they tried to sell for 5000-6000 euros. These cars looked almost the same except for the chassis and a few internal and external details.</label>
+                              <label><strong>Reduction of Risk and Uncertainty</strong></label>
+                              <label>If you have a good relationship with a key partner, you reduce the inherent risk that comes with doing your own business. You also guarantee supply to your business rather than being dependent on suppliers who aren’t key partners and would therefore not give precedence to your business over others.</label>
+                              <label>Many competitors may form strategic partnerships to share the risk of bringing something new into the market while still competing in various aspects in the industry. A classic example of this is the advent of blu-ray technology which was developed in collaboration by some of the world’s premier consumer electronics and computer technology firms. The development of this technology was expensive and several competitors had to get together and decide that they would all be selling their products based on blu-ray technology; hence they needed to collaborate to make blu-ray technology more mainstream. The group joined hands to bring the technology to the mass market but still competes on the basis of their various blu-ray based gadgets in the consumer market.</label>
+                              <label><strong>Acquisition of Resources and Activities</strong></label>
+                              <label>If there are certain things that you don’t have in-house and which would require a heavy investment of time, money or both, a key partner who already has these processes and the infrastructure developed would come in extremely handy.</label>
+                              <label>Business models can be extensive maps of the myriad activities that a business needs to perform or the endless resources required to perform these activities successfully. However, it is rare for a new company to have the resources or capabilities in place to fulfill the mandate set down by the business model. Hence, many new companies are beginning their journeys by forming partnerships that give them access to the required resources or processes that they require, but are unable to own yet. Hence, many mobile operators partner with IT companies to develop the operating system their handsets require rather than bearing the heavy investment such an endeavor would require if done in-house. This also gives the IT company a steady source of revenue as well as the advantage of publicity if the mobile manufacturer’s brand is well recognized. Bicycle companies do not manufacture their bicycle accessories. Instead, they get into selective partnerships with bicycle parts manufacturers who customize the parts like the color or size of the bicycle seat according to the preferences of the manufacturer. </label>
+                              <label>Heineken is one of the most popular producers and suppliers of beers in the world, and it is especially well-known in the Netherlands, where they have created very strong relationships with bar owners. In fact, Heineken frequently invests in new bars by providing not only equipment for free but also investing in the décor of the bar. In return, the bar provides Heineken beer exclusively. Hence, Heineken gets a repeat customer for their beer while the bar owner can minimize the cost of setting up the business. Conversely, however, the bar owner is limited to selling just Heineken, which means that if Heineken increases the prices of its beers, the bar owner has no choice but to abide by the new prices.</label>
+                              <label><strong>Case Study: Starbucks</strong></label>
+                              <label>Starbucks has established several key partnerships worldwide such as with coffee growers worldwide to grow eco and farmer friendly coffee beans. This key partnership is a typical buyer-supplier relationship, motivated by a need to acquire key resources. Another key partnership is with specialized coffee machine makers who make specialized coffee makers for Starbucks. Again this helps Starbucks mitigate cost because it does not have to invest in infrastructure, R&amp;D, and manpower to create these coffee machines in-house. Instead, it is much more cost effective to partner with an organization that already holds expertise in this area and has the infrastructure in place already to cater to Starbucks’ needs. Conversely, Starbucks provides them with a steady buyer for their product as well as the added boost that the Starbucks brand holds for the coffee machine manufacturer.</label>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col-md-9">
+                              <div class="card">
+                                <div class="card-header" data-background-color="purple">
+                                    <h4 class="title"><strong>YOUR Key Partners</strong></h4>
+                                    <p class="category">Based on the description, who might you need to partner with in the future?</p>
+                                </div>
+                                  <div class="card-content">
+                                      <form>
+                                          <div class="row">
+                                              <div class="col-md-12">
+                                                  <div class="form-group">
+                                                      <div class="form-group label-floating">
+                                                          <label class="control-label"> Partner 1</label>
+                                                          <textarea class="form-control" rows="5"></textarea>
+                                                      </div>
+                                                      <div class="form-group label-floating">
+                                                          <label class="control-label"> Partner 2 (if applicable)</label>
+                                                          <textarea class="form-control" rows="5"></textarea>
+                                                      </div>
+                                                      <div class="form-group label-floating">
+                                                          <label class="control-label"> Partner 3 (if applicable)</label>
+                                                          <textarea class="form-control" rows="5"></textarea>
+                                                      </div>
+                                                      <div class="form-group label-floating">
+                                                          <label class="control-label"> Partner 4 (if applicable)</label>
+                                                          <textarea class="form-control" rows="5"></textarea>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="card card-profile" style="background-color:#FFF6D7">
+                                <div class="card-avatar" style="width: 60px; height: 60px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);">
+                                    <a href="#pablo">
+                                        <img class="img" src="../assets/img/faces/adam.jpg" class="img"/>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                  <h6 class="card-title">Adam Duhacheck</h6>
+                                    <h6 class="category text-gray" style="margin-top: -10px;">Kelley, Inc.</h6>
+                                    <div class="card-content" style="text-align: left;">
+                                        <p>It appears that your startup will need a lot of user testing. You might want to consider partnering with <a href=#><strong>Generic, Inc.</strong></a> which is an A/B testing company near you.</p>
+                                        <i class="fa fa-times"></i>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="card card-profile" style="margin-top: 30%; background-color:#FFF6D7">
+                                <div class="card-avatar" style="width: 60px; height: 60px; box-shadow: 0 2px 2px rgba(0,0,0,0.2);">
+                                    <a href="#pablo">
+                                        <img class="img" src="../assets/img/faces/adam2.jpg" class="img"/>
+                                    </a>
+                                </div>
+                                <div class="content">
+                                  <h6 class="card-title">Adam Duhacheck</h6>
+                                    <h6 class="category text-gray" style="margin-top: -10px;">Kelley, Inc.</h6>
+                                    <div class="card-content" style="text-align: left;">
+                                        <p>It probably does not make sense to partner with <a href=#><strong>Lorem, Inc.</strong></a> since they are partnering currently with a competitor of yours.</p>
+                                        <i class="fa fa-times"></i>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary pull-left" style="border-color: rgb(11,29,73); background-color:rgb(11,29,73); box-shadow: 0px 2px 2px rgba(0,0,0,0.2);">Save</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+                <div class="container-fluid">
+
+                    <div class="card">
+                        <div class="card-header" data-background-color="purple">
+                            <h4 class="title">Application for Employer Identification Number</h4>
+                            <p class="category">An EIN is a nine-digit number assigned for tax filing and reporting purposes</p>
+                        </div>
+                        <div class="card-content">
+                            <form>
+                              <br />
+                              <label>Use this form to apply for an employer identification number (EIN). An EIN is a nine-digit number (for example, 12-3456789) assigned to employers, sole proprietors, corporations, partnerships, estates, trusts, certain individuals, and other entities for tax filing and reporting purposes.</label>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="form-group label-floating">
+                                          <label class="control-label">1) Legal Name of Entity for Whom The EIN Is Being Requested</label>
+                                          <input rel="tooltip" title="Enter the legal name of the entity (or individual) applying for the EIN exactly as it appears on the social security card, charter, or other applicable legal document. An entry is required." type="text" class="form-control">
+                                      </div>
+                                  </div>
+                              </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">2) Trade Name of Business</label>
+                                            <input rel="tooltip" title="Enter the trade name of the business if different from the legal name. The trade name is the “doing business as” (DBA) name. " type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">3) Executor, administrator, trustee, “care of” name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">4a) Mailing address (room, apt., suite no. and street, or P.O. box)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">4b) City</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">4c) State</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">4d) ZIP Code</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">5) County and state where principal business is located</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">6a) Name of Responsible Party</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">6b) SSN, ITIN, or EIN</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">7a) Is this application for a (LLC)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">7b) If 8a is “Yes,” enter the number of members</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">7c) If 8a is “Yes,” organized in the United States?</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">8) Type of entity</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">9) Date business started</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">10) Number employees expected in next 12 months</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">11) Describe the principal activity of your business</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">12) Indicate principal line of merchandise sold, specific construction work done, products produced, or services provided.</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">Signature</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">Date</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-2">
+                                    <button type="submit" class="btn btn-primary pull-left" style="border-color: rgb(11,29,73); background-color:rgb(11,29,73); box-shadow: 0px 2px 2px rgba(0,0,0,0.2);">Preview Form</button>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <button type="submit" class="btn btn-success pull-left">Submit</button>
+                                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Company
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="copyright pull-right">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                        DreamCacher
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<!--   Core JS Files   -->
+<script src="../assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/js/material.min.js" type="text/javascript"></script>
+<!--  Charts Plugin -->
+<script src="../assets/js/chartist.min.js"></script>
+<!--  Dynamic Elements plugin -->
+<script src="../assets/js/arrive.min.js"></script>
+<!--  PerfectScrollbar Library -->
+<script src="../assets/js/perfect-scrollbar.jquery.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="../assets/js/bootstrap-notify.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Material Dashboard javascript methods -->
+<script src="../assets/js/material-dashboard.js?v=1.2.0"></script>
+
+</html>
