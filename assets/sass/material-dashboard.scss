@@ -20,9 +20,9 @@
 
 
 //variables and mixins
-@import "../_scss/md/variables";
-@import "../_scss/md/mixins";
-@import "../_scss/md/shadows";
+@import "../_scss/md/_variables";
+@import "../_scss/md/_mixins";
+@import "../_scss/md/_shadows";
 
 //plugin css
 @import "../_scss/md/plugins/_plugin-nouislider";
@@ -30,28 +30,28 @@
 @import "../_scss/md/plugins/_perfect-scrollbar";
 
 // Core CSS
-@import "../_scss/md/typography";
-@import "../_scss/md/sidebar-and-main-panel";
-@import "../_scss/md/buttons";
-@import "../_scss/md/misc";
-@import "../_scss/md/inputs";
-@import "../_scss/md/forms";
-@import "../_scss/md/alerts";
-@import "../_scss/md/tables";
-@import "../_scss/md/checkboxes";
-@import "../_scss/md/radios";
-@import "../_scss/md/togglebutton";
-@import "../_scss/md/ripples";
-@import "../_scss/md/pagination";
-@import "../_scss/md/pills";
-@import "../_scss/md/dialogs";
-@import "../_scss/md/navbars";
-@import "../_scss/md/popups";
-@import "../_scss/md/footers";
+@import "../_scss/md/_typography";
+@import "../_scss/md/_sidebar-and-main-panel";
+@import "../_scss/md/_buttons";
+@import "../_scss/md/_misc";
+@import "../_scss/md/_inputs";
+@import "../_scss/md/_forms";
+@import "../_scss/md/_alerts";
+@import "../_scss/md/_tables";
+@import "../_scss/md/_checkboxes";
+@import "../_scss/md/_radios";
+@import "../_scss/md/_togglebutton";
+@import "../_scss/md/_ripples";
+@import "../_scss/md/_pagination";
+@import "../_scss/md/_pills";
+@import "../_scss/md/_dialogs";
+@import "../_scss/md/_navbars";
+@import "../_scss/md/_popups";
+@import "../_scss/md/_footers";
 
 // Fancy Stuff
-@import "../_scss/md/dropdown";
-@import "../_scss/md/cards";
-@import "../_scss/md/tabs";
-@import "../_scss/md/chartist";
-@import "../_scss/md/responsive";
+@import "../_scss/md/_dropdown";
+@import "../_scss/md/_cards";
+@import "../_scss/md/_tabs";
+@import "../_scss/md/_chartist";
+@import "../_scss/md/_responsive";
